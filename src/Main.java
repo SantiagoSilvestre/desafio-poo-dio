@@ -1,6 +1,13 @@
-import br.com.dio.desafio.domain.*;
+import br.com.dio.desafio.domain.Bootcamp;
+import br.com.dio.desafio.domain.Curso;
+import br.com.dio.desafio.domain.Dev;
+import br.com.dio.desafio.domain.Mentoria;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.time.LocalDate;
+import java.util.*;
 
 public class Main {
 
@@ -49,5 +56,25 @@ public class Main {
 //        System.out.println("Conteúdos inscritos Camila: "+devCamila.getConteudosInscrito());
 
     }
+
+
+
+//    public static void main(String[] args) {
+//        Scanner leitor = new Scanner(System.in);
+//        char o = leitor.next().toUpperCase().charAt(0);
+//        double soma = 0;
+//        double[][] M = new double[12][12];
+//
+//        for (int i = 0; i < 12; i++) {
+//            for (int j = 0; j < 12; j++) {
+//                M[i][j] = leitor.nextDouble();
+//                if (j + i < 11)
+//                    soma += M[i][j];
+//            }
+//        }
+//        if (o=='M') soma /= 66.0;
+//        System.out.println(String.format("%.1f", soma));
+//    }
+
 
 }
